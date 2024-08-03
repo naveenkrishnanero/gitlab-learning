@@ -1,0 +1,8 @@
+stages:
+ - terraform
+
+
+terraform-job:
+  stage: terraform
+  script:
+    - echo "This is sample Init Command"
