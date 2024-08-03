@@ -3,6 +3,8 @@ stages:
 
 
 terraform-job:
+  image: hashicorp/terraform:1.7.5
   stage: terraform
   script:
     - echo "This is sample Init Command"
+    - terraform version 
